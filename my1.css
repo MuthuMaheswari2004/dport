@@ -1,0 +1,169 @@
+
+body{
+margin:0;
+}
+header{
+    display: flex;
+    width:97.5vw;
+    height: 150px;
+    align-items: center;
+    background-size: 100%;
+    background: url('pic.jfif');
+    background-position: 100%;
+    border: 10px solid violet;
+    border-radius: 50px;
+}
+header h1{
+    color: whitesmoke;
+    padding-left: 50px;
+    font-weight: bolder;
+    font-size: 50px;
+    text-shadow:4px 4px 4px green;
+}
+.marq1{
+    font-style: italic;
+    color: black;
+    background-color: plum;
+    margin-top: 25px;
+    display: block;
+    height: 35px;
+    padding-top: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 0;
+}
+.border{
+    border: 1px solid blue;
+    display: inline-block;
+    align-items: center;
+    padding: 25px;
+    background-color: yellow;
+    box-shadow: 5px 5px 5px 5px black;
+    margin: 0%;
+    animation-name: example;
+    animation-duration: 5s;
+    border-radius: 10px;
+}
+@keyframes example{
+    0%{background-color: fuchsia;}
+    25%{background-color: pink;}
+    50%{background-color: aqua;}
+    100%{background-color: yellowgreen;}
+  }
+.border:hover{
+    padding: 50px;
+    transition: 0s;
+    box-shadow: 5px 5px 5px 5px black;
+    animation-name: example2;
+    animation-duration: 5s;
+}
+@keyframes example2{
+    0%{background-color:skyblue;}
+    25%{background-color: rosybrown;}
+    50%{background-color: chartreuse;}
+    100%{background-color: orange;}
+  }
+.home{
+    align-items: center;
+    padding-top: 150px;
+    background: url('pic.jfif');
+    padding-bottom: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.tab{
+    color:darkblue;
+    font-weight: bold;
+    font-size: 25px;
+}
+table ul li{
+    color: bisque;
+}
+.abut{
+    padding: 200px;
+    background: url('pic.jfif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 25px;
+    border: 10px solid violet;
+}
+img{
+    width: 210px;
+    border: 3px solid #000000;
+    display: flexbox;
+    justify-content:space-around;
+  }
+  .marq2{
+    font-style: italic;
+    color: wheat;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 5px;
+    display: block;
+    margin: 0;
+    height: 25px;
+    padding-top: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    background: url('pic.jfif');
+}
+.boder{
+    animation-name: example;
+    animation-duration: 5s;
+}
+footer{
+    text-align: center;
+    padding: 1rem 0;
+    background-color: blueviolet;
+    color: black;
+    border-radius: 20px;
+    border: 10px solid violet;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 75%;
+    object-fit: cover;
+    position: absolute;
+    top: 55px;
+    right: 75px;
+}
+.dropbutton{
+    background-color: blueviolet;
+    color: white;
+    padding: 17px;
+    font-size: 15px;
+    border: 3px solid yellow;
+    cursor: pointer;
+}
+.dropbutton:hover,.dropbutton:focus{
+    background-color: blue;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.contentdrop{
+    display: none;
+    position: absolute;
+    background-color: cadetblue;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px black;
+    z-index: 1;
+}
+.contentdrop a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown a:hover{
+    background-color: #ddd;
+}
+.show{
+    display: block;
+}
